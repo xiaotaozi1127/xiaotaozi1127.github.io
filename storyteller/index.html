@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>xiaotaozi1127 – Apps</title>
+  <title>StoryTeller – Legal</title>
   <style>
     * { box-sizing: border-box; margin: 0; padding: 0; }
     body {
@@ -26,9 +26,9 @@
       width: 100%;
       text-align: center;
     }
-    h1 { font-size: 1.8rem; margin-bottom: 0.5rem; color: #1a1a1a; }
+    h1 { font-size: 2rem; margin-bottom: 0.5rem; color: #1a1a1a; }
     p { color: #666; margin-bottom: 2rem; font-size: 1rem; line-height: 1.6; }
-    .app-list { display: flex; flex-direction: column; gap: 1rem; }
+    .links { display: flex; flex-direction: column; gap: 1rem; }
     .btn {
       display: block;
       padding: 0.875rem 1.5rem;
@@ -36,12 +36,19 @@
       text-decoration: none;
       font-size: 1rem;
       font-weight: 600;
-      background: #4f46e5;
-      color: #fff;
       transition: background 0.2s, transform 0.1s;
     }
-    .btn:hover { background: #4338ca; }
     .btn:active { transform: scale(0.98); }
+    .btn-primary {
+      background: #4f46e5;
+      color: #fff;
+    }
+    .btn-primary:hover { background: #4338ca; }
+    .btn-secondary {
+      background: #f3f2ff;
+      color: #4f46e5;
+    }
+    .btn-secondary:hover { background: #e5e3ff; }
     footer {
       margin-top: 2rem;
       color: #999;
@@ -51,11 +58,11 @@
 </head>
 <body>
   <div class="card">
-    <h1>xiaotaozi1127</h1>
-    <p>Legal documents for my apps.</p>
-    <div class="app-list">
-      <a class="btn" href="storyteller/">📖 StoryTeller</a>
-      <!-- Add more apps here -->
+    <h1>📖 StoryTeller</h1>
+    <p>Legal documents for the StoryTeller app.<br/>Please review our policies below.</p>
+    <div class="links">
+      <a class="btn btn-primary" href="privacy-policy.html">Privacy Policy</a>
+      <a class="btn btn-secondary" href="terms-of-service.html">Terms of Service</a>
     </div>
   </div>
   <footer>&copy; 2026 xiaotaozi1127. All rights reserved.</footer>
