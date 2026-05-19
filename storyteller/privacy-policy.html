@@ -21,15 +21,21 @@
       box-shadow: 0 4px 24px rgba(0,0,0,0.08);
       padding: 3rem 2.5rem;
     }
-    .back {
-      display: inline-block;
-      margin-bottom: 1.5rem;
+    .page-links {
+      display: flex;
+      gap: 1.5rem;
+      justify-content: center;
+      margin-top: 2.5rem;
+      padding-top: 1.5rem;
+      border-top: 1px solid #f0eeff;
+    }
+    .page-links a {
       color: #4f46e5;
       text-decoration: none;
       font-size: 0.9rem;
       font-weight: 600;
     }
-    .back:hover { text-decoration: underline; }
+    .page-links a:hover { text-decoration: underline; }
     h1 { font-size: 1.9rem; color: #1a1a1a; margin-bottom: 0.4rem; }
     .updated { color: #888; font-size: 0.875rem; margin-bottom: 2rem; }
     h2 {
@@ -62,7 +68,6 @@
 </head>
 <body>
   <div class="container">
-    <a class="back" href="index.html">← Back</a>
     <h1>Privacy Policy</h1>
     <p class="updated">Last updated: March 1, 2026</p>
 
@@ -139,6 +144,11 @@
     <ul>
       <li>Email: <a href="mailto:storyteller-support@zenticstudio.com">storyteller-support@zenticstudio.com</a></li>
     </ul>
+
+    <div class="page-links">
+      <a href="app-support.html">App Support</a>
+      <a href="delete-account.html">Delete Account</a>
+    </div>
   </div>
   <footer>&copy; 2026 ZenticStudio. All rights reserved.</footer>
 </body>
